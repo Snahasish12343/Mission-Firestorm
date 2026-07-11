@@ -1,0 +1,18 @@
+#test
+
+git add .
+
+git commit -m " "
+
+git push origin main
+
+
+
+### pull
+
+git pull origin main
+
+# git branch master
+
+git switch master
+
