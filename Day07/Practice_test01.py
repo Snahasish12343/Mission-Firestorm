@@ -228,3 +228,26 @@
 
 
 
+# is_raining = True
+# is_cold = False
+
+# if is_raining == True and is_cold == True:
+#         print("Bring heavy cloths & a raincoat")
+# elif is_raining == True and is_cold == False:
+#         print("Bring a raincoat")
+# elif is_raining == False and is_cold == True:
+#         print("Bring heavy cloths")
+# else:
+#         print("Wear Normal Cloths dude!")
+
+
+
+
+
+
+
+# TASK 15: If Statements & Comparisons
+# Write a function `max_num(num1, num2, num3)` that compares three numbers using 
+# comparison operators and returns the largest one without using Python's built-in max().
+# Write your code below:
+
