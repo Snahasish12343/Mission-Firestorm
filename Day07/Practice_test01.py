@@ -102,7 +102,7 @@
 # X1 = input("Enter your 1st Number: ")
 # X2 = input("Enter your 2nd Number: ")
 # Result = float(X1) + float(X2)
-# print(Result)
+# print(abs(Result))
 
 
 
@@ -136,9 +136,8 @@
 # friends = ["rafik", "jabbar", "salam", "barkat", "promit"]
 
 # print(friends[0])
-# print(friends[3])
-# print(friends[4])
-# print(friends[-1])
+# print(friends[2])
+# # print(friends[-1])
 
 
 
@@ -250,4 +249,123 @@
 # Write a function `max_num(num1, num2, num3)` that compares three numbers using 
 # comparison operators and returns the largest one without using Python's built-in max().
 # Write your code below:
+
+# a = 3
+# b = 5
+# c = 9
+
+# if a>b and a>c:
+#     print("a is the largest number")
+# elif b>a and b>c:
+#     print("b is the largest number")
+# else:
+#     print("c is the largest number")  
+
+
+
+
+
+
+# TASK 16: Building a Better Calculator
+# Prompt the user for a first number, an operator (+, -, *, /), and a second number.
+# Use if/elif/else statements to execute the appropriate math operations. Handle division by zero.
+# Write your code below:
+# try:
+        
+#     num1 = input("Enter first number: ")
+#     operator = input("Enter operator: ")
+#     num2 = input("Enter second number: ")
+
+#     Result = None
+#     if operator == "+":
+#         Result = float(num1) + float(num2)
+#     elif operator == "-":
+#         Result = float(num1) - float(num2)
+#     elif operator == "*":
+#         Result = float(num1) * float(num2)
+#     elif operator == "/":
+#         if num1 == 0 or num2 == 0 :
+#             print("Can't devide by 0")
+#         else:
+#             Result = float(num1) / float(num2)
+#     print("the result is: " + str(Result))
+# except ValueError:
+#     print("Invalid Entry. Enter Valid number Next time")
+
+
+
+
+
+
+# TASK 17: Working with Dictionaries
+# Create a dictionary representing a smartphone (brand, model, storage_gb, is_5g).
+# Print the model, change the storage capacity, and safely fetch a key called "camera_megapixels" 
+# using the .get() method with a default fallback value if it doesn't exist.
+# Write your code below:
+
+# smartphone = {
+#     "brand": "samsung",
+#     "model": "S21",
+#     "storage_gb": 128,
+#     "is_5g": True,
+# }
+
+# print(smartphone["model"])
+# smartphone["storage_gb"] = 256
+# camera_megapixels = smartphone.get("camera_megapixels", "Not available")
+# print(camera_megapixels)
+
+
+
+
+
+# TASK 18: While Loop Countdown
+# Write a while loop that prints the numbers from 5 down to 1, and then prints "Blastoff!".
+# Write your code below:
+
+# i = 5
+# while i > 0:
+#     print(i)
+#     i -= 1
+
+# print("Blastoff!")
+
+
+
+
+
+
+# TASK 19: For Loop over a List
+# Given a list of fruits ['apple', 'banana', 'cherry'], use a for loop to print each fruit in uppercase.
+# Write your code below:
+
+
+# fruits = ['apple', 'banana', 'cherry']
+
+# for a in fruits:
+#     print(a.upper())
+
+
+
+
+
+# TASK 20: Dictionary Basics
+# Create a dictionary representing a car with keys: brand, model, and year.
+# - Print the model.
+# - Change the year to a new value.
+# - Safely fetch a key called "color" using .get() with a default value "Unknown".
+# Write your code below:
+# car = {
+#     "brand" : "Honda",
+#     "model" : "corrola",
+#     "year" : "2020",
+# }
+
+# print(car["model"])
+
+# car["year"] = 2022
+
+# print(car["year"])
+# print(car.get("color", "Unknown"))
+
 
